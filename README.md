@@ -1,6 +1,6 @@
-# Shiro-Zookeeper, A Apache Shiro session cache for Apache Zookeeper
+# Shiro-Zookeeper
 
-A simple session cache for Apache Zookeeper, will allow your application to save your users session in Zookeeper FS.
+A Apache Shiro session cache for Apache Zookeeper, it will allow your application to save your users session in Zookeeper FS.
 
 ## Build and use in your Application
 
