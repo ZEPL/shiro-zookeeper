@@ -1,5 +1,5 @@
 ext.githubProjectName = 'zookeeper'
-group = "com.nflabs.shiro.${githubProjectName}"
+group = "com.nflabs.shiro.cache.${githubProjectName}"
 
 buildscript {
   repositories {
