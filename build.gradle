@@ -1,0 +1,27 @@
+ext.githubProjectName = 'zookeeper'
+group = "com.nflabs.shiro.${githubProjectName}"
+
+buildscript {
+  repositories {
+    mavenLocal()
+    mavenCentral() // maven { url 'http://jcenter.bintray.com' }
+  }
+}
+
+allprojects {
+  repositories { 
+    mavenLocal()
+    mavenCentral()
+  }
+}
+
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'base'
+apply plugin: 'java'
+
+dependencies {
+  compile 'org.apache.shiro:shiro-core:1.2.3'
+  compile 'org.apache.zookeeper:zookeeper:3.4.6'
+}
+
